@@ -9,7 +9,7 @@ Driven Computer Science student passionate about tackling technical challenges, 
 
 <div align="center">
   
-  [![wakatime](https://wakatime.com/badge/user/4565cfdc-ff10-408f-b219-296d1178ba36.svg)](https://wakatime.com/@4565cfdc-ff10-408f-b219-296d1178ba36)
+  [![wakatime](https://wakatime.com/badge/user/4565cfdc-ff10-408f-b219-296d1178ba36.svg)](https://wakatime.com/@4565cfdc-ff10-408f-b219-296d1178ba36?v=1)
   [![LeetCode user i221170](https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fi221170&logo=leetcode&logoColor=yellow)](https://leetcode.com/i221170/)
   ![](https://komarev.com/ghpvc/?username=arqamz&style=flat&color=61DAFB&logo=github)
   
@@ -18,7 +18,7 @@ Driven Computer Science student passionate about tackling technical challenges, 
 ## 📊 GitHub Stats
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arqamz&theme=react&hide_border=true&card_width=400&card_height=150" alt="GitHub Streak" style="width: 33%; margin: 10px;">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arqamz&theme=react&hide_border=true&card_width=400&card_height=150?v=1" alt="GitHub Streak" style="width: 33%; margin: 10px;">
     <img src="https://github-readme-stats.vercel.app/api?username=Arqamz&theme=react&show_icons=true&hide_border=true&count_private=true&card_width=400&card_height=150" alt="GitHub Stats" style="width: 33%; margin: 10px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arqamz&theme=react&show_icons=true&hide_border=true&layout=compact&card_width=400&card_height=150&show_icons=true" alt="Top Languages" style="width: 33%; margin: 10px;">
 </div>
