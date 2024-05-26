@@ -1,10 +1,29 @@
-# Hi there, I'm Arqam Zia! 👋
+<div align="center">
 
-Welcome to my GitHub profile! I'm a dynamic and driven Computer Science student with a passion for technology and a focus on hands-on projects. I thrive on applying my academic knowledge and enthusiasm for innovation to real-world challenges. Here's a bit about me:
+# Hi 👋, I'm Arqam Zia
 
-![Profile Banner](https://via.placeholder.com/800x200.png?text=Welcome+to+My+GitHub+Profile!)
+Driven Computer Science student passionate about tackling technical challenges, particularly drawn to areas like network architecture and machine learning.
 
-## 🔭 Projects
+<!-- ![Profile Banner](https://github.com/Arqamz/Arqamz/blob/main/welcomeMessage.gif) -->
+</div>
+
+<div align="center">
+  
+  [![wakatime](https://wakatime.com/badge/user/4565cfdc-ff10-408f-b219-296d1178ba36.svg)](https://wakatime.com/@4565cfdc-ff10-408f-b219-296d1178ba36)
+  [![LeetCode user i221170](https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fi221170&logo=leetcode&logoColor=yellow)](https://leetcode.com/i221170/)
+  ![](https://komarev.com/ghpvc/?username=arqamz&style=flat&color=61DAFB&logo=github)
+  
+</div>
+
+## 📊 GitHub Stats
+
+<div style="display: flex; justify-content: center;">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arqamz&theme=react&hide_border=true&card_width=400&card_height=150" alt="GitHub Streak" style="width: 33%; margin: 10px;">
+    <img src="https://github-readme-stats.vercel.app/api?username=Arqamz&theme=react&show_icons=true&hide_border=true&count_private=true&card_width=400&card_height=150" alt="GitHub Stats" style="width: 33%; margin: 10px;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arqamz&theme=react&show_icons=true&hide_border=true&layout=compact&card_width=400&card_height=150&show_icons=true" alt="Top Languages" style="width: 33%; margin: 10px;">
+</div>
+
+## 🔭 Some of my Projects
 
 ### 🌐 [InterPlanetary File System (IPFS) Implementation](https://github.com/Arqamz/IPFS-Implementation)
 Developed a robust data structures project in C++ simulating an InterPlanetary File System (IPFS) using a Ring Distributed Hash Table (DHT) based on the Chord protocol for efficient distributed file storage and retrieval. This scalable and fault-tolerant system handles data insertion, search, and deletion with dynamic node addition and removal.
@@ -18,39 +37,36 @@ Developed a C# desktop application with SQL Server for gym management, automatin
 ### 💬 [ChatVista](https://github.com/Arqamz/ChatVista)
 Developed an inter-client, terminal-based chat application using C, facilitating communication between multiple clients with features like group chats and secure message handling. Leveraged processes like fork, exec, pipes, and shared memory for efficient inter-client communication.
 
-For more projects, check out my [GitHub](https://github.com/Arqamz).
+For more projects, check out my [other repositories](https://github.com/Arqamz).
 
 ## 🛠️ Technical Skills
 
 - **Languages**: C/C++, Python, C# .NET, PHP, SQL
 - **Tools/Software**: Linux, Docker, Git, Microsoft SSMS
-- **Core Competencies**: Algorithm Design, Operating Systems, Containerisation, Version Control, Database Management, Script Automation
+- **Core Competencies**: Algorithm Design, Operating Systems, Containerization, Version Control, Database Management, Script Automation
 
-## 🎓 Educational Background
+<!--
+Replace this with a dynamic CI deployed table that runs a script to auto convert a .yml file into markdown. The table will have links to my repos grouped by either their languages or by my core competencies? I'll do it once I have enough of the projects to have a fully populated table
+<p align="center">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/SSMS-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
+</p>
+-->
 
-**Bachelor of Science in Computer Science**  
-National University of Computer and Emerging Sciences (FAST-NUCES)  
-_Sep 2022 - June 2026_
-
-**Advanced Level (A Levels)**  
-Pakistan International School Jeddah English Section (PISJ-ES), Saudi Arabia  
-_Aug 2020 - May 2022_
-
-Outstanding Achievement Award: Awarded for achieving top grades.
-
-## 🏆 Achievements
-
-- **FAST Speed Programming Competition**: Achieved 3rd place with a team in a university-level competition
-- **NASCON Code Jail**: Secured 1st place in a coding challenge
-- **Waterloo’s Canadian Computing Competition**: Participant
-- **Kangaroo Math Competition**: Participant
 
 ## 📜 Certifications
 
 - **Neetcode Advanced Algorithms**
 - **GitHub Skills: Automate workflows with GitHub Actions**
 
-## 📫 Contact Me
+## 📫 Find Me
 
 - **Email**: [arqam.mzia@gmail.com](mailto:arqam.mzia@gmail.com)
 - **LinkedIn**: [linkedin.com/in/arqamz](https://linkedin.com/in/arqamz)
