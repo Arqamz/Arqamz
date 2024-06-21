@@ -18,7 +18,7 @@ Driven Computer Science student passionate about tackling technical challenges, 
 ## 📊 GitHub Stats
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arqamz&theme=react&hide_border=true&card_width=400&card_height=150?vl=1" alt="GitHub Streak" style="width: 33%; margin: 10px;">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arqamz&theme=react&hide_border=true&card_width=400&card_height=150?v2=1" alt="GitHub Streak" style="width: 33%; margin: 10px;">
     <img src="https://github-readme-stats.vercel.app/api?username=Arqamz&theme=react&show_icons=true&hide_border=true&count_private=true&card_width=400&card_height=150" alt="GitHub Stats?v=1" style="width: 33%; margin: 10px;">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arqamz&theme=react&show_icons=true&hide_border=true&layout=compact&card_width=400&card_height=150&show_icons=true" alt="Top Languages?v=1" style="width: 33%; margin: 10px;">
 </div>
