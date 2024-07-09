@@ -99,3 +99,8 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 - **GitHub**: [github.com/Arqamz](https://github.com/Arqamz)
 - **LeetCode**: [leetcode.com/u/i221170/](https://leetcode.com/u/i221170/)
 
+---
+
+<picture>
+  <img alt="github-snake" src="./dist/snake.svg" />
+</picture>
