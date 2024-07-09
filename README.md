@@ -30,14 +30,14 @@ Driven Computer Science student passionate about tackling technical challenges, 
 
 <p align="center">
 <a href="https://github.com/arqamz">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&count_private=true&card_width=500&rank_icon=default" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=20&count_private=true&card_width=500&rank_icon=default" />
 </a>
 <br>
 <a href="https://github.com/arqamz">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arqamz&layout=compact&langs_count=10&theme=material-palenight&hide_title=true&hide_border=true&card_width=250" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arqamz&border_radius=20&layout=compact&langs_count=10&theme=material-palenight&hide_title=true&hide_border=true&card_width=250" />
 </a>
 <a href="https://github.com/arqamz">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Arqamz&theme=material-palenight&hide_border=true&hide_title=true&langs_count=10" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Arqamz&border_radius=20&theme=material-palenight&hide_border=true&hide_title=true&langs_count=10" />
 </a>
 </p>
 
