@@ -102,5 +102,7 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 ---
 
 <picture>
-  <img alt="github-snake" src="./dist/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
 </picture>
