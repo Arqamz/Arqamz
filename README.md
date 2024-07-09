@@ -16,15 +16,40 @@ Driven Computer Science student passionate about tackling technical challenges, 
 </div>
 
 ## 📊 GitHub Stats
+---
 
-<div style="display: flex; justify-content: center;">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Arqamz&theme=react&hide_border=true&card_width=400&card_height=150?v2=1" alt="GitHub Streak" style="width: 33%; margin: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=Arqamz&theme=react&show_icons=true&hide_border=true&count_private=true&card_width=400&card_height=150" alt="GitHub Stats?v=1" style="width: 33%; margin: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arqamz&theme=react&show_icons=true&hide_border=true&layout=compact&card_width=400&card_height=150&show_icons=true" alt="Top Languages?v=1" style="width: 33%; margin: 10px;">
-</div>
+![.](https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5])
+
+---
+  
+<p align="center">
+  <img width="800" height="200" src="https://streak-stats.demolab.com?user=Arqamz&theme=dark-minimalist&hide_border=true&border_radius=20&card_width=800&card_height=200">
+</p>
+
+---
+
+<p align="center">
+<a href="https://github.com/arqamz">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&count_private=true&card_width=500&rank_icon=default" />
+</a>
+<br>
+<a href="https://github.com/arqamz">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arqamz&layout=compact&langs_count=10&theme=material-palenight&hide_title=true&hide_border=true&card_width=250" />
+</a>
+<a href="https://github.com/arqamz">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Arqamz&theme=material-palenight&hide_border=true&hide_title=true&langs_count=10" />
+</a>
+</p>
+
+<!-- FIX THISS, Use in other repos' readme's aswelllll 
 
 ## 🔭 Some of my Projects
 
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arqamz&repo=arqamz)
+![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=660524e0f0b42b2fca72e5413f6172ac)
+-->
+
+<!--
 ### 🌐 [InterPlanetary File System (IPFS) Implementation](https://github.com/Arqamz/IPFS-Implementation)
 Developed a robust data structures project in C++ simulating an InterPlanetary File System (IPFS) using a Ring Distributed Hash Table (DHT) based on the Chord protocol for efficient distributed file storage and retrieval. This scalable and fault-tolerant system handles data insertion, search, and deletion with dynamic node addition and removal.
 
@@ -60,15 +85,17 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 </p>
 -->
 
-
+<!--
 ## 📜 Certifications
 
 - **Neetcode Advanced Algorithms**
 - **GitHub Skills: Automate workflows with GitHub Actions**
-
+-->
+  
 ## 📫 Find Me
 
 - **Email**: [arqam.mzia@gmail.com](mailto:arqam.mzia@gmail.com)
 - **LinkedIn**: [linkedin.com/in/arqamz](https://linkedin.com/in/arqamz)
 - **GitHub**: [github.com/Arqamz](https://github.com/Arqamz)
 - **LeetCode**: [leetcode.com/u/i221170/](https://leetcode.com/u/i221170/)
+
