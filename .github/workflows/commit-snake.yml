@@ -2,8 +2,12 @@ name: Generate Snake Game from GitHub Contribution Grid
 
 on:
   schedule:
-    - cron: "0 11 * * *"  # Runs at 11 AM UTC (4 PM PKT) every day
+    - cron: "5 0 * * *"  # Runs at 12:05 AM UTC every day
   workflow_dispatch:
+
+  push:
+    branches:
+    - main
 
 jobs:
   build:
