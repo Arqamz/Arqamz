@@ -5,9 +5,9 @@ on:
     - cron: "5 0 * * *"  # Runs at 12:05 AM UTC every day
   workflow_dispatch:
 
-  push:
-    branches:
-    - main 
+    #push:
+    #branches:
+      #- main 
 
 jobs:
   generate:
