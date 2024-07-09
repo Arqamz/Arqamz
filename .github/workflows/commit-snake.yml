@@ -1,0 +1,30 @@
+name: Generate Snake Game from GitHub Contribution Grid
+
+on:
+  schedule:
+    - cron: "0 11 * * *"  # Runs at 11 AM UTC (4 PM PKT) every day
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Generate Snake Game from GitHub Contribution Grid
+        uses: Platane/snk@v3.2.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          output: dist/snake.svg
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'Arqam Zia'
+          git config --global user.email 'i221170@nu.edu.pk'
+          git add -A
+          git commit -m "Update snake game svg on read me"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
