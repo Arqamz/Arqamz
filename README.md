@@ -102,5 +102,5 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 ---
 
 <picture>
-  <img alt="github-snake" src="./dist/snake.svg" />
+  <img alt="github-snake" src="./dist/github-contribution-grid-snake-dark.svg" />
 </picture>
