@@ -1,8 +1,8 @@
 <div align="center">
 
-# Hi 👋, I'm Arqam Zia
+# Hi 👋, I'm Arqam
 
-Driven Computer Science student passionate about tackling technical challenges, particularly drawn to areas like network architecture and machine learning.
+I like stuff on this website
 
 <!-- ![Profile Banner](https://github.com/Arqamz/Arqamz/blob/main/welcomeMessage.gif) -->
 </div>
@@ -10,12 +10,16 @@ Driven Computer Science student passionate about tackling technical challenges, 
 <div align="center">
   
   [![wakatime](https://wakatime.com/badge/user/4565cfdc-ff10-408f-b219-296d1178ba36.svg)](https://wakatime.com/@4565cfdc-ff10-408f-b219-296d1178ba36?v=1)
+  <!-- Uncomment when you have atleast 100 leetcode solved
   [![LeetCode user i221170](https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fi221170&logo=leetcode&logoColor=yellow)](https://leetcode.com/i221170/)
+  -->
   ![](https://komarev.com/ghpvc/?username=arqamz&style=flat&color=61DAFB&logo=github)
   
 </div>
 
-## 📊 GitHub Stats
+<details>
+<summary><h2>📊 GitHub Stats</h2></summary>
+  
 ---
 
 ![.](https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5])
@@ -40,6 +44,22 @@ Driven Computer Science student passionate about tackling technical challenges, 
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Arqamz&border_radius=20&theme=material-palenight&hide_border=true&hide_title=true&langs_count=10" />
 </a>
 </p>
+
+</details>
+
+---
+
+<!-- 
+
+Set this up when you're not a loser :(
+
+<details>
+<summary><h2>🖥️ My desktop config </h2></summary>  
+<!-- Add my different themes and screenshots and stuff (should be an image with a link to open the mp4 screen recording video, link my dotfiles repo here also here
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arqamz&repo=arqamz)
+-\-> 
+</details>
+---
 
 <!-- FIX THISS, Use in other repos' readme's aswelllll 
 
@@ -91,15 +111,19 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 - **Neetcode Advanced Algorithms**
 - **GitHub Skills: Automate workflows with GitHub Actions**
 -->
-  
-## 📫 Find Me
 
+<!--
+<details>
+<summary><h2>📫 Find Me</h2></summary>  
+<!-- CHANGE THIS TO ICONS, add discord and matrix and other applications
 - **Email**: [arqam.mzia@gmail.com](mailto:arqam.mzia@gmail.com)
 - **LinkedIn**: [linkedin.com/in/arqamz](https://linkedin.com/in/arqamz)
 - **GitHub**: [github.com/Arqamz](https://github.com/Arqamz)
 - **LeetCode**: [leetcode.com/u/i221170/](https://leetcode.com/u/i221170/)
-
+-\-> 
+</details>
 ---
+-->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
