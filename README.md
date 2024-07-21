@@ -27,7 +27,7 @@ I like stuff on this website
 ---
   
 <p align="center">
-  <img width="800" height="200" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20&card_width=800&card_height=200">
+  <img width="800" height="200" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20&card_width=800&card_height=200?v=1">
 </p>
 
 ---
