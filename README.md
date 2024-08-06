@@ -10,10 +10,8 @@ I like stuff on this website
 <div align="center">
   
   [![wakatime](https://wakatime.com/badge/user/4565cfdc-ff10-408f-b219-296d1178ba36.svg)](https://wakatime.com/@4565cfdc-ff10-408f-b219-296d1178ba36?v=1)
-  <!-- Uncomment when you have atleast 100 leetcode solved
   [![LeetCode user i221170](https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fi221170&logo=leetcode&logoColor=yellow)](https://leetcode.com/i221170/)
-  -->
-  ![](https://komarev.com/ghpvc/?username=arqamz&style=flat&color=61DAFB&logo=github)
+  ![](https://komarev.com/ghpvc/?username=arqamz&style=flat&color=0E7FC0&logo=github)
   
 </div>
 
@@ -130,3 +128,15 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
 </picture>
+
+<hr>
+
+<div align="center">
+  Download my resume: <br><br>
+  <a href="https://github.com/Arqamz/Arqamz/raw/main/assets/resume/resume.pdf" download>
+    <img alt="PDF Resume" src="https://img.shields.io/badge/PDF-Resume-blue?logo=Adobe%20Acrobat%20Reader&color=%234F4F4F&logoColor=white&labelColor=red">
+  </a>
+  <a href="https://github.com/Arqamz/Arqamz/raw/main/assets/resume/resume.tex" download>
+    <img alt="LaTeX Resume" src="https://img.shields.io/badge/LaTeX-Resume-blue?logo=LaTeX&logoColor=white&color=%234F4F4F&labelColor=%2304652F">
+  </a>
+</div>
