@@ -1,0 +1,427 @@
+%============================================================================%
+%
+%	DOCUMENT DEFINITION
+%
+%============================================================================%
+
+%we use article class because we want to fully customize the page and dont use a cv template
+\documentclass[10pt,A4]{article}	
+
+%----------------------------------------------------------------------------------------
+%	ENCODING
+%----------------------------------------------------------------------------------------
+
+%we use utf8 since we want to build from any machine
+\usepackage[utf8]{inputenc}		
+
+%----------------------------------------------------------------------------------------
+%	LOGIC
+%----------------------------------------------------------------------------------------
+
+% provides \isempty test
+\usepackage{xifthen}
+\usepackage{xparse}
+
+%----------------------------------------------------------------------------------------
+%	FONT
+%----------------------------------------------------------------------------------------
+
+% some tex-live fonts - choose your own - I like the default serif latex font
+
+%\usepackage[defaultsans]{droidsans}
+%\usepackage[default]{comfortaa}
+%\usepackage{cmbright}
+%\usepackage[default]{raleway}
+%\usepackage{fetamont}
+%\usepackage[default]{gillius}
+%\usepackage[light,math]{iwona}
+%\usepackage[thin]{roboto} 
+
+% set font default to sanserif
+% \renewcommand*\familydefault{\sfdefault} 	
+
+\usepackage[T1]{fontenc}
+
+% % more font size definitions
+\usepackage{moresize}		
+
+
+%----------------------------------------------------------------------------------------
+%	PAGE LAYOUT  DEFINITIONS
+%----------------------------------------------------------------------------------------
+
+%debug page outer frames
+%\usepackage{showframe}			
+
+
+%define page styles using geometry
+\usepackage[a4paper]{geometry}		
+
+% for example, change the margins to 2 inches all round
+\geometry{top=1.25cm, bottom=-.6cm, left=1.5cm, right=1.5cm} 	
+
+%use customized header
+\usepackage{fancyhdr}				
+\pagestyle{fancy}
+
+%less space between header and content
+\setlength{\headheight}{-5pt}		
+
+
+%customize entries left, center and right
+%\lhead{}
+%\chead{}
+%\rhead{}
+
+
+%indentation is zero
+\setlength{\parindent}{0mm}
+
+%----------------------------------------------------------------------------------------
+%	TABLE /ARRAY DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for layouting tables
+\usepackage{multicol}			
+\usepackage{multirow}
+
+%extended aligning of tabular cells
+\usepackage{array}
+
+\newcolumntype{x}[1]{%
+>{\raggedleft\hspace{0pt}}p{#1}}%
+
+\usepackage{enumitem}
+
+%----------------------------------------------------------------------------------------
+%	GRAPHICS DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+%for header image
+\usepackage{graphicx}
+
+%for floating figures
+\usepackage{wrapfig}
+\usepackage{float}
+%\floatstyle{boxed} 
+%\restylefloat{figure}
+
+%for drawing graphics		
+\usepackage{tikz}				
+\usetikzlibrary{shapes, backgrounds,mindmap, trees}
+
+
+%----------------------------------------------------------------------------------------
+%	Color DEFINITIONS
+%---------------------------------------------------------------------------------------- 
+
+% I like my resume black and white
+
+% \usepackage{color}
+
+%accent color
+\definecolor{sectcol}{RGB}{0, 0, 0}
+
+%dark background color
+\definecolor{bgcol}{RGB}{110,110,110}
+
+%light background / accent color
+\definecolor{softcol}{RGB}{225,225,225}
+
+
+%============================================================================%
+%
+%
+%	DEFINITIONS
+%
+%
+%============================================================================%
+
+%----------------------------------------------------------------------------------------
+% 	HEADER
+%----------------------------------------------------------------------------------------
+
+% remove top header line
+\renewcommand{\headrulewidth}{0pt} 
+
+%remove botttom header line
+\renewcommand{\footrulewidth}{0pt}	  	
+
+%remove pagenum
+\renewcommand{\thepage}{}	
+
+%remove section num		
+\renewcommand{\thesection}{}			
+
+%----------------------------------------------------------------------------------------
+% 	ARROW GRAPHICS in Tikz
+%----------------------------------------------------------------------------------------
+
+% a six pointed arrow poiting to the left
+\newcommand{\tzlarrow}{(0,0) -- (0.2,0) -- (0.3,0.2) -- (0.2,0.4) -- (0,0.4) -- (0.1,0.2) -- cycle;}	
+
+% include the left arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\larrow}[1]
+{\begin{tikzpicture}[scale=0.58]
+	 \filldraw[fill=#1!100,draw=#1!100!black]  \tzlarrow
+ \end{tikzpicture}
+}
+
+% a six pointed arrow poiting to the right
+\newcommand{\tzrarrow}{ (0,0.2) -- (0.1,0) -- (0.3,0) -- (0.2,0.2) -- (0.3,0.4) -- (0.1,0.4) -- cycle;}
+
+% include the right arrow into a tikz picture
+% param1: fill color
+%
+\newcommand{\rarrow}
+{\begin{tikzpicture}[scale=0.7]
+	\filldraw[fill=sectcol!100,draw=sectcol!100!black] \tzrarrow
+ \end{tikzpicture}
+}
+
+
+
+%----------------------------------------------------------------------------------------
+%	custom sections
+%----------------------------------------------------------------------------------------
+
+% create a coloured box with arrow and title as cv section headline
+% param 1: section title
+%
+\newcommand{\cvsection}[1]
+{
+	\begin{center}
+		\large\textcolor{sectcol}{\textbf{#1}}
+	\end{center}
+}
+
+%create a coloured arrow with title as cv meta section section
+% param 1: meta section title
+%
+\newcommand{\metasection}[2]
+{
+%\begin{tabular*}{1\textwidth}{r r}
+\footnotesize{#2} \hspace*{\fill} \footnotesize{#1}\\[1pt]
+%\end{tabular*}
+}
+
+%----------------------------------------------------------------------------------------
+%	 CV EVENT
+%----------------------------------------------------------------------------------------
+
+% creates a stretched box as cv entry headline followed by parameters about the description
+
+\newcommand{\cvevent}[9]{
+\begin{tabular*}{\textwidth}{p{13.6cm} x{3.9cm}}
+    \raggedright\textbf{#2} - \textcolor{bgcol}{#3} & \textcolor{sectcol}{#1}
+\end{tabular*}
+
+\vspace{-8pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+
+\raggedright
+\begin{itemize}[left=0pt, itemsep=-1pt, parsep=3pt]
+    \ifthenelse{\equal{#4}{}}{}{\item #4}
+    \ifthenelse{\equal{#5}{}}{}{\item #5}
+    \ifthenelse{\equal{#6}{}}{}{\item #6}
+    \ifthenelse{\equal{#7}{}}{}{\item #7}
+    \ifthenelse{\equal{#8}{}}{}{\item #8}
+    \ifthenelse{\equal{#9}{}}{}{\item #9}
+\end{itemize}
+}
+
+
+% creates a stretched box as 
+\newcommand{\cveventmeta}[2]
+{
+	\mbox{\mystrut \hspace{87pt}\textit{#1}}\\
+	#2
+}
+
+%----------------------------------------------------------------------------------------
+%	 Education
+%----------------------------------------------------------------------------------------
+
+\newcommand{\educationItem}[6]{%
+\begin{tabular*}{\textwidth}{p{13.6cm} x{3.9cm}}
+    \raggedright\textbf{#2} - \textcolor{bgcol}{#3} & \textcolor{sectcol}{#1}
+\end{tabular*}
+
+\vspace{-8pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+
+\raggedright
+\begin{itemize}[left=0pt, label=\hphantom{SP}, labelsep=0pt, labelwidth=0pt, itemindent=0pt, itemsep=0pt, topsep=0pt, partopsep=0pt, parsep=0pt, listparindent=0pt]
+    \ifthenelse{\equal{#4}{}}{}{\item #4}
+    \ifthenelse{\equal{#5}{}}{}{\item #5}
+    \ifthenelse{\equal{#6}{}}{}{\item #6}
+\end{itemize}
+}
+
+
+%----------------------------------------------------------------------------------------
+% CUSTOM STRUT FOR EMPTY BOXES
+%----------------------------------------- -----------------------------------------------
+\newcommand{\mystrut}{\rule[-.3\baselineskip]{0pt}{\baselineskip}}
+
+%----------------------------------------------------------------------------------------
+% CUSTOM LOREM IPSUM
+%----------------------------------------------------------------------------------------
+\newcommand{\lorem}
+{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
+
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT CONTENT
+%
+%
+%
+%============================================================================%
+\begin{document}
+
+
+%use our custom fancy header definitions
+\pagestyle{fancy}	
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	HEADER IMAGE
+%----------------------------------------------------------------------------------------
+
+%\begin{figure}[H]
+%\begin{flushright}
+%	\includegraphics[trim= 320 130 460 210,clip,width=0.2\linewidth]{myfoto.jpg}	%trimming relative to image size!
+%\end{flushright}
+%\end{figure}
+
+
+%---------------------------------------------------------------------------------------
+%	TITLE HEADLINE
+%----------------------------------------------------------------------------------------
+\vspace{-8pt}
+\begin{center}
+	\HUGE \textsc{Arqam Zia} %\textcolor{sectcol}{\rule[-1mm]{1mm}{0.9cm}} \textsc{Resume}
+        \\[2pt]
+	\small Software Development Engineer
+\end{center}
+
+
+
+\vspace{6pt}
+
+
+%---------------------------------------------------------------------------------------
+%	META SECTION
+%----------------------------------------------------------------------------------------
+\metasection{FAST NUCES}{\textbf{Status:} Junior Undergraduate Comp Sci}
+\metasection{arqam.mzia@gmail.com}{\textbf{Skills:} Design Patterns, APIs, Automated Testing, Version Control, Kanban} 
+\metasection{www.github.com/arqamz}{\textbf{Tools:} Docker, Git, Playwright, Linux}
+\metasection{+92 355 816 1512}{\textbf{Languages:} C, C++, Python, Rust, Go, SQL}
+\vspace{-2pt}
+\textcolor{softcol}{\hrule}
+\vspace{6pt}
+
+\normalsize
+
+% %---------------------------------------------------------------------------------------
+% %	SUMMARAY (optional)
+% %----------------------------------------------------------------------------------------
+% \vspace{-6pt}
+% \cvsection{Summary}
+% Enthusiastic Computer Science student with a strong interest in low-level technology and a deep appreciation for Linux. Proficient in multiple programming languages and experienced in version control and containerisation. Eager to explore new opportunities and apply my skills to impactful projects while continuing to grow and learn in the field.\\
+
+
+%============================================================================%
+%
+%	CV SECTIONS AND EVENTS (MAIN CONTENT)
+%
+%============================================================================%
+
+%---------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsection{Experience}
+
+\cvevent{Jun - Aug 2024}{APIMATIC}{Solutions Engineering Intern}
+{Designed and developed proof of concepts for prospective high-profile clients such as Threads by Meta and Franklin Templeton, demonstrating APIMatic's advanced capabilities in documentation generation and SDK code generation, which aimed to enhance potential client engagement.}
+{Engineered and executed Playwright and unit tests for PayPal’s API endpoints, improving the accuracy of testing through sophisticated browser interaction techniques, resulting in more reliable API performance.}
+{Conducted regression testing and performance benchmarking of LLM-driven chatbot features, offering in-depth insights that informed enhancements for clients such as Verizon, PayPal, and Chargify/Maxio.}
+{Developed a linter and translator for OpenAPI specifications, specifically the Arazzo spec, streamlining the conversion of workflows into custom JavaScript functions, which increased development efficiency.}
+{Revamped and revitalized a discarded .NET Framework catalog project by cleaning up, refactoring, and republishing the new version, which resulted in a more stable deployment and led to increased conversions and interactions.}
+{Acquired comprehensive expertise in software design principles, version control, issue tracking, and development practices, which enhanced overall technical proficiency.}
+
+% \cvevent{Jun 2021- Aug 2022}{British Council Saudi Arabia}{IELTS Ambassador}{Facilitated IELTS preparation workshops and seminars for students, enhancing their understanding of the test format and strategies}{Organized and coordinated practice test sessions, providing constructive feedback and resources to improve student performance while promoting IELTS resources and support services through various channels, increasing student engagement and awareness about the exam.}{}{}{}{}
+
+%---------------------------------------------------------------------------------------
+%	PROJECT SECTION
+%--------------------------------------------------------------------------------------
+\cvsection{Projects}
+
+\cvevent{Summer 2024}{Implementation of RingDHT data structure from IPFS}{Go}{Developed a robust data structures project in Go simulating an InterPlanetary File System's Ring Distributed Hash Table (DHT) based on the Chord protocol for efficient distributed file storage and retrieval.}
+{Successfully created a scalable and fault-tolerant system capable of handling data insertion, search, and deletion with dynamic node addition and removal, demonstrating advanced understanding of distributed systems and data structure optimization.}{}{}{}{}
+
+%
+\cvevent{Summer 2024}{Implementation of a basic HTTP server}{Rust}{Built an asynchronous HTTP server in Rust, capable of handling multiple requests concurrently while maintaining high performance and low resource usage.}
+{Employed Rust's ownership model and concurrency features to ensure memory safety and efficient execution, showcasing skills in systems programming.}{}{}{}{}
+
+%
+\cvevent{Spring 2024}{MultiThreaded rendition of classic Pacman}{C++}{Created a multithreaded version of the classic Pacman game using C++, with advanced synchronization techniques to manage concurrent gameplay and AI behaviors.}
+{Implemented retro graphics and game mechanics, demonstrating proficiency in C++ programming, real-time processing, and multi-threading.}{}{}{}{}
+
+% \begin{center}
+%     {for a full list of my projects check out my github}
+% \end{center}
+
+%---------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%--------------------------------------------------------------------------------------
+
+\cvsection{Education}
+
+\educationItem
+  {Aug 2022 - Jun 2026}{FAST National University of Computer and Emerging Sciences}
+  {Islamabad}{Bachelor of Science in Computer Science\hphantom{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Que}CGPA: 3.0}
+
+
+\educationItem{Sep 2010 - May 2022}{Pakistan International School Jeddah - English Section}{Jeddah}{General Certificate of Education - Advanced levels\hphantom{Lorem ipsum dolor sit amet, consectetur ad}Grade: 2A* 1A 1B}{International General Certificate of Secondary Education - Ordinary levels\hphantom{Lorem ipsum dolor sit }Grade: 5A* 3A}{}
+
+% Junior/Middle School, O-levels, and 
+
+% \cvevent{2009 - 2010}{Semester Abroad}{University of Melbourne}{Mastered six months of study and trans-cultural experience in Melbourne, Australia}{Finished machine programming, information visualization, professional essay writing}{}{}{}{}{}{}
+
+
+%--------------------------------------------------------------------------------------------------
+%	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
+%--------------------------------------------------------------------------------------------------
+
+\null
+
+\vspace*{\fill}
+\begin{center}
+    {www.arqamz.github.io}
+\end{center}
+\vspace*{\fill}
+
+
+
+%============================================================================%
+%
+%
+%
+%	DOCUMENT END
+%
+%
+%
+%============================================================================%
+\end{document}
