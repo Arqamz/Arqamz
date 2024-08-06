@@ -133,10 +133,10 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 
 <div align="center">
   Download my resume: <br><br>
-  <a href="https://github.com/Arqamz/Arqamz/raw/main/assets/resume/resume.pdf" download>
+  <a href="https://raw.githubusercontent.com/Arqamz/Arqamz/main/assets/resume/resume.pdf" download>
     <img alt="PDF Resume" src="https://img.shields.io/badge/PDF-Resume-blue?logo=Adobe%20Acrobat%20Reader&color=%234F4F4F&logoColor=white&labelColor=red">
   </a>
-  <a href="https://github.com/Arqamz/Arqamz/raw/main/assets/resume/resume.tex" download>
+  <a href="https://raw.githubusercontent.com/Arqamz/Arqamz/main/assets/resume/resume.tex" download>
     <img alt="LaTeX Resume" src="https://img.shields.io/badge/LaTeX-Resume-blue?logo=LaTeX&logoColor=white&color=%234F4F4F&labelColor=%2304652F">
   </a>
 </div>
