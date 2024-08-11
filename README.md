@@ -33,12 +33,10 @@ I like stuff on this website
   <img height="165" src="https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=5&row=1&margin-w=5" alt="GitHub Profile Trophy">
 </p> -->
 
-<div class="badges-githubstats">
-  <p align="center">
-    <img height="165" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=12" alt="Streak Stats">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=12&count_private=true&rank_icon=default?v=1" alt="GitHub Readme Stats">
-  </p>
-</div>
+<p align="center">
+  <img height="165" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=12" alt="Streak Stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=12&count_private=true&rank_icon=default?v=1" alt="GitHub Readme Stats">
+</p>
 
 
 <!--
