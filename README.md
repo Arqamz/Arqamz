@@ -28,9 +28,10 @@ I like stuff on this website
 
 <h2 align="center">📊 GitHub Stats</h2>
 
+<!--
 <p align="center">
   <img height="165" src="https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=5&row=1&margin-w=5" alt="GitHub Profile Trophy">
-</p>
+</p> -->
 
 <div class="badges-githubstats">
   <p align="center">
@@ -69,14 +70,6 @@ I like stuff on this website
 
 Set this up when you're not a loser :(
 
-<details>
-<summary><h2>🖥️ My desktop config </h2></summary>  
-<!-- Add my different themes and screenshots and stuff (should be an image with a link to open the mp4 screen recording video, link my dotfiles repo here also here
-![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arqamz&repo=arqamz)
--\-> 
-</details>
----
-
 <!-- FIX THISS, Use in other repos' readme's aswelllll 
 
 ## 🔭 Some of my Projects
@@ -84,27 +77,6 @@ Set this up when you're not a loser :(
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arqamz&repo=arqamz)
 ![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=660524e0f0b42b2fca72e5413f6172ac)
 -->
-
-<!--
-### 🌐 [InterPlanetary File System (IPFS) Implementation](https://github.com/Arqamz/IPFS-Implementation)
-Developed a robust data structures project in C++ simulating an InterPlanetary File System (IPFS) using a Ring Distributed Hash Table (DHT) based on the Chord protocol for efficient distributed file storage and retrieval. This scalable and fault-tolerant system handles data insertion, search, and deletion with dynamic node addition and removal.
-
-### 🕹️ [Multithreaded Pacman](https://github.com/Arqamz/MultithreadedPacman)
-Implemented a multi-threaded Pac-Man game in SFML C++ with advanced synchronization techniques using mutexes and semaphores, achieving smooth, concurrent gameplay.
-
-### 🏋️ [Flex Trainer](https://github.com/Arqamz/FlexTrainerManagement)
-Developed a C# desktop application with SQL Server for gym management, automating member management and training sessions. This project includes comprehensive audit logging for user activity tracking.
-
-### 💬 [ChatVista](https://github.com/Arqamz/ChatVista)
-Developed an inter-client, terminal-based chat application using C, facilitating communication between multiple clients with features like group chats and secure message handling. Leveraged processes like fork, exec, pipes, and shared memory for efficient inter-client communication.
-
-For more projects, check out my [other repositories](https://github.com/Arqamz).
-
-## 🛠️ Technical Skills
-
-- **Languages**: C/C++, Python, C# .NET, PHP, SQL
-- **Tools/Software**: Linux, Docker, Git, Microsoft SSMS
-- **Core Competencies**: Algorithm Design, Operating Systems, Containerization, Version Control, Database Management, Script Automation
 
 <!--
 Replace this with a dynamic CI deployed table that runs a script to auto convert a .yml file into markdown. The table will have links to my repos grouped by either their languages or by my core competencies? I'll do it once I have enough of the projects to have a fully populated table
@@ -121,12 +93,6 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 </p>
 -->
 
-<!--
-## 📜 Certifications
-
-- **Neetcode Advanced Algorithms**
-- **GitHub Skills: Automate workflows with GitHub Actions**
--->
 
 <!--
 <details>
