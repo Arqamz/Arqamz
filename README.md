@@ -15,14 +15,29 @@ I like stuff on this website
   
 </div>
 
-<details>
-<summary><h2>📊 GitHub Stats</h2></summary>
-  
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
+
+<!-- <details> 
+<summary><h2>📊 GitHub Stats</h2></summary> -->
+
+<h2 align="center">📊 GitHub Stats</h2>
 
 ![.](https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5])
 
----
+<div class="badges-githubstats">
+  <p align="center">
+    <img height="165" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=20&count_private=true&rank_icon=default?v=1">
+  </p>
+</div>
+
+<!--
   
 <p align="center">
   <img width="800" height="200" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20&card_width=800&card_height=200?v=1">
@@ -32,7 +47,7 @@ I like stuff on this website
 
 <p align="center">
 <a href="https://github.com/arqamz">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=20&count_private=true&card_width=500&rank_icon=default?v=1" />
+  
 </a>
 <br>
 <a href="https://github.com/arqamz">
@@ -42,8 +57,8 @@ I like stuff on this website
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Arqamz&border_radius=20&theme=material-palenight&hide_border=true&hide_title=true&langs_count=10?v=1" />
 </a>
 </p>
-
-</details>
+-->
+<!-- </details> -->
 
 ---
 
@@ -123,11 +138,45 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 ---
 -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/Arqamz/Arqamz/snake-svg-outputs/github-contribution-grid-snake-dark.svg" />
-</picture>
+### <p align="center">⚙️ My development environment</p>
+
+<div align="center" text-align: justify;>
+
+I use NixOS on all my servers, desktops, laptops and virtual machines, its my primary OS for everything. I also daily drive Hyprland as my WM
+
+<div class="table-devenvironment">
+<table style="font-size: 11px">
+<tr>
+  <td valign="top" width="50%">
+
+  <h4 align="center"> ❄️🔧  NixOS Explorer </h4>
+
+  I enjoy exploring new features and perfecting my setup with NixOS (the perfect OS)
+  
+  ![NixOS](https://img.shields.io/badge/-Nixos-000000?style=flat&logo=nixos&logoColor=#FCC624)
+  ![Hyprland](https://img.shields.io/badge/-Hyprland-000000?style=flat&logo=hyprland&logoColor=#E95420)
+  ![Wayland](https://img.shields.io/badge/-Wayland-000000?style=flat&logo=wayland&logoColor=#0078D4)
+  
+  </td>
+  <td valign="top" width="50%">
+
+  <h4 align="center"> 💻🖥️ Terminal Enthusiast </h4>
+
+  I love living in the terminal and harnessing the efficiency and power of TUI applications
+
+  ![Nvim](https://img.shields.io/badge/-NeoVim-000000?style=flat&logo=neovim&logoColor=#0078D6)
+  ![Zsh](https://img.shields.io/badge/-Zsh-000000?style=flat&logo=zsh&logoColor=#5391FE)
+  ![Tmux](https://img.shields.io/badge/-Tmux-000000?style=flat&logo=tmux&logoColor=#0078D6)
+  ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=#FCC624)
+  
+
+  </td>
+</tr>
+</table>
+</div>
+
+</div>
+
 
 <hr>
 
