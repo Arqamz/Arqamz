@@ -32,8 +32,12 @@ I like stuff on this website
 
 <div class="badges-githubstats">
   <p align="center">
-    <img height="165" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=20&count_private=true&rank_icon=default?v=1">
+    <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://github.com/anuraghazra/github-readme-stats">
+      <img height="165" align="center" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20">
+    </a>
+    <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://github.com/anuraghazra/convoychat">
+      <img height="165" align="center" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=20&count_private=true&rank_icon=default?v=1">
+    </a>
   </p>
 </div>
 
@@ -182,10 +186,10 @@ I use NixOS on all my servers, desktops, laptops and virtual machines, its my pr
 
 <div align="center">
   Download my resume: <br><br>
-  <a href="https://raw.githubusercontent.com/Arqamz/Arqamz/main/assets/resume/resume.pdf" download>
+  <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://raw.githubusercontent.com/Arqamz/Arqamz/main/assets/resume/resume.pdf" download>
     <img alt="PDF Resume" src="https://img.shields.io/badge/PDF-Resume-blue?logo=Adobe%20Acrobat%20Reader&color=%234F4F4F&logoColor=white&labelColor=red">
   </a>
-  <a href="https://raw.githubusercontent.com/Arqamz/Arqamz/main/assets/resume/resume.tex" target="_blank">
+  <a href="https://raw.githubusercontent.com/Arqamz/Arqamz/main/assets/resume/resume.tex" target="_blank" style="text-decoration: none; color: inherit; background: none; border: none;">
     <img alt="LaTeX Resume" src="https://img.shields.io/badge/LaTeX-Resume-blue?logo=LaTeX&logoColor=white&color=%234F4F4F&labelColor=%2304652F">
   </a>
 </div>
