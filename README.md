@@ -28,16 +28,17 @@ I like stuff on this website
 
 <h2 align="center">📊 GitHub Stats</h2>
 
-<!--
+
 <p align="center">
   <img height="165" src="https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=5&row=1&margin-w=5" alt="GitHub Profile Trophy">
-</p> -->
+</p> 
 
-<p align="center">
-  <img height="165" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=12" alt="Streak Stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=12&count_private=true&rank_icon=default?v=1" alt="GitHub Readme Stats">
-</p>
-
+<div class="badges-githubstats">
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=arqamz&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="arqamz's Stats" height="165">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=arqamz&theme=tokyonight&hide_border=true" alt="arqamz's Streak" height="165">
+  </p>
+</div>
 
 <!--
   
