@@ -28,16 +28,8 @@ I like stuff on this website
 
 <h2 align="center">📊 GitHub Stats</h2>
 
-<div class="badges-githubstats" style="text-align: center;">
-  
-  
-  
-  
-  
-</div>
-
 <p align="center">
-  <img height="165" src="https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5" alt="GitHub Profile Trophy">
+  <img height="165" src="https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=5&row=1&margin-w=5" alt="GitHub Profile Trophy">
 </p>
 
 <div class="badges-githubstats">
