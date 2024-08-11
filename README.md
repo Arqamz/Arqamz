@@ -28,17 +28,16 @@ I like stuff on this website
 
 <h2 align="center">📊 GitHub Stats</h2>
 
+<div class="badges-githubstats" align="center">
+  
 ![.](https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5])
 
-<div class="badges-githubstats">
-  <p align="center">
-    <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://github.com/anuraghazra/github-readme-stats">
-      <img height="165" align="center" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20">
-    </a>
-    <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://github.com/anuraghazra/convoychat">
-      <img height="165" align="center" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=20&count_private=true&rank_icon=default?v=1">
-    </a>
-  </p>
+  <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="165" align="center" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=20">
+  </a>
+  <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://github.com/anuraghazra/convoychat">
+    <img height="165" align="center" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=20&count_private=true&rank_icon=default?v=1">
+  </a>
 </div>
 
 <!--
