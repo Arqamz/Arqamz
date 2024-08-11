@@ -28,7 +28,7 @@ I like stuff on this website
 
 <h2 align="center">📊 GitHub Stats</h2>
 
-<div class="badges-githubstats" align="center">
+<div class="badges-githubstats">
   <p align="center">
     
   ![.](https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5])
