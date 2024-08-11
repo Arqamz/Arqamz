@@ -28,16 +28,22 @@ I like stuff on this website
 
 <h2 align="center">📊 GitHub Stats</h2>
 
+<div class="badges-githubstats" style="text-align: center;">
+  
+  
+  
+  
+  
+</div>
+
 <div class="badges-githubstats">
   <p align="center">
-    
-  ![.](https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5])
-    
-  <img height="165" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=12">
-  <img  height="165" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=12&count_private=true&rank_icon=default?v=1">
-  
+    <img height="165" src="https://github-profile-trophy.vercel.app/?username=arqamz&theme=dracula&no-bg=true&no-frame=true&column=-1&margin-w=5" alt="GitHub Profile Trophy">
+    <img height="165" src="https://streak-stats.demolab.com?user=Arqamz&theme=material-palenight&hide_border=true&border_radius=12" alt="Streak Stats">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=arqamz&hide_title=true&theme=material-palenight&include_all_commits=false&show_icons=true&hide_border=true&border_radius=12&count_private=true&rank_icon=default?v=1" alt="GitHub Readme Stats">
   </p>
 </div>
+
 
 <!--
   
