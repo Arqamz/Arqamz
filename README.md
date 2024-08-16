@@ -154,7 +154,7 @@ I use NixOS on all my servers, desktops, laptops and virtual machines, its my pr
 <hr>
 
 <div align="center">
-  Download my resume: <br><br>
+  <h5>Download my resume</h5>
   <a style="text-decoration: none; color: inherit; background: none; border: none;" href="https://raw.githubusercontent.com/Arqamz/Arqamz/main/assets/resume/resume.pdf" download>
     <img alt="PDF Resume" src="https://img.shields.io/badge/PDF-Resume-blue?logo=Adobe%20Acrobat%20Reader&color=%234F4F4F&logoColor=white&labelColor=red">
   </a>
