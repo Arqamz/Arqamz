@@ -117,29 +117,32 @@ I use NixOS on all my servers, desktops, laptops and virtual machines, its my pr
 <div class="table-devenvironment">
 <table style="font-size: 11px">
 <tr>
-  <td valign="top" width="50%">
+  <td valign="top" width="50%" align="center">
 
   <h4 align="center"> ❄️🔧  NixOS Explorer </h4>
 
+  <p align="center">
   I enjoy exploring new features and perfecting my setup with NixOS (the perfect OS)
-  
+  </p>
+
   ![NixOS](https://img.shields.io/badge/-Nixos-000000?style=flat&logo=nixos&logoColor=#FCC624)
   ![Hyprland](https://img.shields.io/badge/-Hyprland-000000?style=flat&logo=hyprland&logoColor=#E95420)
   ![Wayland](https://img.shields.io/badge/-Wayland-000000?style=flat&logo=wayland&logoColor=#0078D4)
   
   </td>
-  <td valign="top" width="50%">
+  <td valign="top" width="50%" align="center">
 
-  <h4 align="center"> 💻🖥️ Terminal Enthusiast </h4>
-
+  <h4 align="center"> 🖥️⌨️ Terminal Enthusiast </h4>
+  
+  <p align="center">
   I love living in the terminal and harnessing the efficiency and power of TUI applications
-
+  </p>
+  
   ![Nvim](https://img.shields.io/badge/-NeoVim-000000?style=flat&logo=neovim&logoColor=#0078D6)
   ![Zsh](https://img.shields.io/badge/-Zsh-000000?style=flat&logo=zsh&logoColor=#5391FE)
   ![Tmux](https://img.shields.io/badge/-Tmux-000000?style=flat&logo=tmux&logoColor=#0078D6)
   ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=#FCC624)
   
-
   </td>
 </tr>
 </table>
