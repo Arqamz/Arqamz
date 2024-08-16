@@ -112,7 +112,7 @@ Replace this with a dynamic CI deployed table that runs a script to auto convert
 
 <div align="center" text-align: justify;>
 
-I use NixOS on all my servers, desktops, laptops and virtual machines, its my primary OS for everything. I also daily drive Hyprland as my WM
+I use NixOS on all my servers, desktops, laptops and virtual machines, its my primary OS for everything.
 
 <div class="table-devenvironment">
 <table style="font-size: 11px">
