@@ -1,6 +1,8 @@
 <div align="center">
 
-# Hi 👋, I'm Arqam
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3500&pause=300&color=70A5FD&center=true&vCenter=true&width=600&height=21&lines=%F0%9F%91%8B+I'm+Arqam%2C++a+Computer+Science+student;%F0%9F%9B%A0%EF%B8%8F+Mastering+NixOS+and+advancing+in+DevOps." alt="Typing SVG" />
+
+#
 
 I like stuff on this website
 
