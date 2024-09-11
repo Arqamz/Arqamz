@@ -1,3 +1,8 @@
+<div align="left">
+  
+[![wakatime](https://wakatime.com/badge/user/4565cfdc-ff10-408f-b219-296d1178ba36.svg)](https://wakatime.com/@4565cfdc-ff10-408f-b219-296d1178ba36?v=1) <img align="right" src="https://komarev.com/ghpvc/?username=arqamz&style=flat&color=0E7FC0&logo=github">
+</div>
+
 <div align="center">
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3500&pause=300&color=70A5FD&center=true&vCenter=true&width=600&height=27&lines=%F0%9F%91%8B+I'm+Arqam%2C++a+Computer+Science+student;%F0%9F%9B%A0%EF%B8%8F+Mastering+NixOS+and+advancing+in+DevOps." alt="Typing SVG" />
@@ -7,14 +12,6 @@
 I like stuff on this website
 
 <!-- ![Profile Banner](https://github.com/Arqamz/Arqamz/blob/main/welcomeMessage.gif) -->
-</div>
-
-<div align="center">
-  
-  [![wakatime](https://wakatime.com/badge/user/4565cfdc-ff10-408f-b219-296d1178ba36.svg)](https://wakatime.com/@4565cfdc-ff10-408f-b219-296d1178ba36?v=1)
-  [![LeetCode user i221170](https://img.shields.io/badge/dynamic/json?style=flat&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fi221170&logo=leetcode&logoColor=yellow)](https://leetcode.com/i221170/)
-  ![](https://komarev.com/ghpvc/?username=arqamz&style=flat&color=0E7FC0&logo=github)
-  
 </div>
 
 <div align="center">
