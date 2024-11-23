@@ -45,14 +45,12 @@
 % % more font size definitions
 \usepackage{moresize}		
 
-
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT  DEFINITIONS
 %----------------------------------------------------------------------------------------
 
 %debug page outer frames
 %\usepackage{showframe}			
-
 
 %define page styles using geometry
 \usepackage[a4paper]{geometry}		
@@ -72,7 +70,6 @@
 %\lhead{}
 %\chead{}
 %\rhead{}
-
 
 %indentation is zero
 \setlength{\parindent}{0mm}
@@ -181,8 +178,6 @@
  \end{tikzpicture}
 }
 
-
-
 %----------------------------------------------------------------------------------------
 %	custom sections
 %----------------------------------------------------------------------------------------
@@ -233,7 +228,6 @@
 \end{itemize}
 }
 
-
 % creates a stretched box as 
 \newcommand{\cveventmeta}[2]
 {
@@ -262,7 +256,6 @@
 \end{itemize}
 }
 
-
 %----------------------------------------------------------------------------------------
 % CUSTOM STRUT FOR EMPTY BOXES
 %----------------------------------------- -----------------------------------------------
@@ -273,8 +266,6 @@
 %----------------------------------------------------------------------------------------
 \newcommand{\lorem}
 {Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.}
-
-
 
 %============================================================================%
 %
@@ -287,13 +278,8 @@
 %============================================================================%
 \begin{document}
 
-
 %use our custom fancy header definitions
 \pagestyle{fancy}	
-
-
-
-
 
 %----------------------------------------------------------------------------------------
 %	HEADER IMAGE
@@ -305,7 +291,6 @@
 %\end{flushright}
 %\end{figure}
 
-
 %---------------------------------------------------------------------------------------
 %	TITLE HEADLINE
 %----------------------------------------------------------------------------------------
@@ -316,18 +301,15 @@
 	\small Software Development Engineer
 \end{center}
 
-
-
 \vspace{6pt}
-
 
 %---------------------------------------------------------------------------------------
 %	META SECTION
 %----------------------------------------------------------------------------------------
 \metasection{FAST NUCES}{\textbf{Status:} Junior Undergraduate Comp Sci}
-\metasection{arqam.mzia@gmail.com}{\textbf{Skills:} Design Patterns, APIs, Automated Testing, Version Control, Kanban} 
+\metasection{arqam.mzia@gmail.com}{\textbf{Skills:} Design Patterns, APIs, Automated Testing, Version Control} 
 \metasection{www.github.com/arqamz}{\textbf{Tools:} Docker, Git, Playwright, Linux}
-\metasection{+92 355 816 1512}{\textbf{Languages:} C, C++, Python, Rust, Go, SQL}
+\metasection{+92 355 816 1512}{\textbf{Languages:} C++, C\#, Java, Go, Python, Rust, SQL}
 \vspace{-2pt}
 \textcolor{softcol}{\hrule}
 \vspace{6pt}
@@ -340,7 +322,6 @@
 % \vspace{-6pt}
 % \cvsection{Summary}
 % Enthusiastic Computer Science student with a strong interest in low-level technology and a deep appreciation for Linux. Proficient in multiple programming languages and experienced in version control and containerisation. Eager to explore new opportunities and apply my skills to impactful projects while continuing to grow and learn in the field.\\
-
 
 %============================================================================%
 %
@@ -368,16 +349,20 @@
 %--------------------------------------------------------------------------------------
 \cvsection{Projects}
 
-\cvevent{Summer 2024}{Implementation of RingDHT data structure from IPFS}{Go}{Developed a robust data structures project in Go simulating an InterPlanetary File System's Ring Distributed Hash Table (DHT) based on the Chord protocol for efficient distributed file storage and retrieval.}
+%
+\cvevent{Winter 2024}{HawkTU - Full Stack Web App}{TypeScript, React, Java Spring Boot, PostgreSQL}{Developed a fully modular and microservices-based e-commerce platform, featuring a TypeScript React frontend, Java Spring Boot backend, and PostgreSQL database, with robust JWT authentication and secure password hashing.} {Designed and implemented a scalable, independent architecture allowing for easy modifications to individual services without affecting the overall system. Integrated cloud deployment, secure API communication, and optimized coding practices, demonstrating expertise in full-stack development, security, and modern software engineering principles.}{}{}{}{}
+
+%
+\cvevent{Fall 2024}{Implementation of RingDHT data structure from IPFS}{Go}{Developed a robust data structures project in Go simulating an InterPlanetary File System's Ring Distributed Hash Table (DHT) based on the Chord protocol for efficient distributed file storage and retrieval.}
 {Successfully created a scalable and fault-tolerant system capable of handling data insertion, search, and deletion with dynamic node addition and removal, demonstrating advanced understanding of distributed systems and data structure optimization.}{}{}{}{}
 
 %
 \cvevent{Summer 2024}{Implementation of a basic HTTP server}{Rust}{Built an asynchronous HTTP server in Rust, capable of handling multiple requests concurrently while maintaining high performance and low resource usage.}
 {Employed Rust's ownership model and concurrency features to ensure memory safety and efficient execution, showcasing skills in systems programming.}{}{}{}{}
 
-%
-\cvevent{Spring 2024}{MultiThreaded rendition of classic Pacman}{C++}{Created a multithreaded version of the classic Pacman game using C++, with advanced synchronization techniques to manage concurrent gameplay and AI behaviors.}
-{Implemented retro graphics and game mechanics, demonstrating proficiency in C++ programming, real-time processing, and multi-threading.}{}{}{}{}
+% %
+% \cvevent{Spring 2024}{MultiThreaded rendition of classic Pacman}{C++}{Created a multithreaded version of the classic Pacman game using C++, with advanced synchronization techniques to manage concurrent gameplay and AI behaviors.}
+% {Implemented retro graphics and game mechanics, demonstrating proficiency in C++ programming, real-time processing, and multi-threading.}{}{}{}{}
 
 % \begin{center}
 %     {for a full list of my projects check out my github}
@@ -394,12 +379,8 @@
   {Islamabad}{Bachelor of Science in Computer Science\hphantom{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Que}CGPA: 3.0}
 
 
-\educationItem{Sep 2010 - May 2022}{Pakistan International School Jeddah - English Section}{Jeddah}{General Certificate of Education - Advanced levels\hphantom{Lorem ipsum dolor sit amet, consectetur ad}Grade: 2A* 1A 1B}{International General Certificate of Secondary Education - Ordinary levels\hphantom{Lorem ipsum dolor sit }Grade: 5A* 3A}{}
-
-% Junior/Middle School, O-levels, and 
-
-% \cvevent{2009 - 2010}{Semester Abroad}{University of Melbourne}{Mastered six months of study and trans-cultural experience in Melbourne, Australia}{Finished machine programming, information visualization, professional essay writing}{}{}{}{}{}{}
-
+\educationItem
+  {Sep 2010 - May 2022}{Pakistan International School Jeddah - English Section}{Jeddah}{General Certificate of Education - Advanced levels\hphantom{Lorem ipsum dolor sit amet, consectetur ad}Grade: 2A* 1A 1B}{International General Certificate of Secondary Education - Ordinary levels\hphantom{Lorem ipsum dolor sit }Grade: 5A* 3A}{}
 
 %--------------------------------------------------------------------------------------------------
 %	ARTIFICIAL FOOTER (fancy footer cannot exceed linewidth) 
@@ -412,8 +393,6 @@
     {www.arqamz.github.io}
 \end{center}
 \vspace*{\fill}
-
-
 
 %============================================================================%
 %
