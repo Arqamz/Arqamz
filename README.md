@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3500&pause=300&color=70A5FD&center=true&vCenter=true&width=600&height=27&lines=%F0%9F%91%8B+I'm+Arqam%2C++a+Computer+Science+student;%F0%9F%9B%A0%EF%B8%8F+Mastering+NixOS+and+advancing+in+DevOps." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3500&pause=300&color=70A5FD&center=true&vCenter=true&width=600&height=27&lines=%F0%9F%91%8B+I'm+Arqam%2C++a+Computer+Science+student;%F0%9F%9B%A0%EF%B8%8F+Mastering+NixOS+and+exploring+computers." alt="Typing SVG" />
 
 #
 
@@ -34,8 +34,8 @@ I like stuff on this website
 
 <div class="badges-githubstats">
   <p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=arqamz&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" alt="arqamz's Stats" height="165">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=arqamz&theme=tokyonight&hide_border=true" alt="arqamz's Streak" height="165">
+    <img src="https://github-readme-stats.vercel.app/api?username=arqamz&theme=tokyonight&show_icons=true&hide_border=true&count_private=true?" alt="Arqamz's Github Stats" height="165">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=arqamz&theme=tokyonight&hide_border=true&" alt="Arqamz's Github streak" height="165">
   </p>
 </div>
 
@@ -119,7 +119,7 @@ I use NixOS on all my servers, desktops, laptops and virtual machines, its my pr
   <h4 align="center"> ❄️🔧  NixOS Explorer </h4>
 
   <p align="center">
-  I enjoy exploring new features and perfecting my setup with NixOS (the perfect OS)
+  I enjoy exploring the world of Linux and perfecting my setup with NixOS
   </p>
 
   ![NixOS](https://img.shields.io/badge/-Nixos-000000?style=flat&logo=nixos&logoColor=#FCC624)
@@ -146,7 +146,6 @@ I use NixOS on all my servers, desktops, laptops and virtual machines, its my pr
 </div>
 
 </div>
-
 
 <hr>
 
