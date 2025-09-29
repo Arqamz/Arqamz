@@ -1,4 +1,4 @@
-name: Generate Snake Game from GitHub Contribution Grid
+name: Generate 3D terrain from GitHub Contribution Grid
 
 on:
   schedule:
@@ -17,24 +17,27 @@ jobs:
     timeout-minutes: 5
     
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+          token: ${{ secrets.TOKEN_GITHUB }}
+        
+      - name: Generate Contribution Terrain
+        uses: eshahhh/contribution-terrain@v1.0.0
         with:
-          target_branch: snake-svg-outputs
-          build_dir: dist
+          username: ${{ github.repository_owner }}
+          style: terrain
+          TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+          
+      - name: Commit and push changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
+        run: |
+          git config --local user.email "arqam.mzia@gmail.com"
+          git config --local user.name "arqamz"
+          git add terrain-arqamz.svg
+          git commit -m "Update contribution graph" || echo "No changes to commit"
           
+          # Use HTTPS with token to push
+          git remote set-url origin https://arqamz:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+          git push origin HEAD:main
