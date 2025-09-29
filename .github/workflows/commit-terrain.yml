@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --local user.email "arqam.mzia@gmail.com"
           git config --local user.name "arqamz"
-          git add terrain-arqamz.svg
+          git add terrain-Arqamz.svg
           git commit -m "Update contribution graph" || echo "No changes to commit"
           
           # Use HTTPS with token to push
